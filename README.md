@@ -14,6 +14,7 @@ PreVue aims to streamline the development process by making it easy to visualize
   - Editable popup modal: Once a component is created, it is editable by double clicking 
   - Draggable HTML elements: In Edit Mode, additional HTML element can be selected. HTML elements can be nested by dragging accordingly.
   - Live HTML code display: As selected HTML elements are dragged, the code display will change accordingly. It will be a live preview of the Vue template code
+  - When saving projects, projects are saved as json files
   - Exportable code: When you are happy with your work, you can export the entire project. The exported directory structure includes:
     ```
     src/
