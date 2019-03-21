@@ -20,10 +20,10 @@ PreVue aims to streamline the development process by making it easy to visualize
       assets/
       App.vue
       components/
-        yourCreatedComponent.vue
+        YourCreatedComponent.vue
       views/
         HomeView.vue
-        yourCreatedRoute
+        YourCreatedRoute
      ```
   
       ### Navigating the Editor:
