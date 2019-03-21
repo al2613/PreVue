@@ -37,10 +37,10 @@ PreVue aims to streamline the development process by making it easy to visualize
 - Prop passing
 
 ## CREDITS
-- Hubert Lin
-- Franklin Pinnock
-- Annette Lin
-- Daniel Shu
+- Hubert Lin https://www.linkedin.com/in/lin-huberth/
+- Franklin Pinnock https://www.linkedin.com/in/pinnockf/
+- Annette Lin https://www.linkedin.com/in/alin10/
+- Daniel Shu https://www.linkedin.com/in/danielshu/
 
 ## License
 MIT
