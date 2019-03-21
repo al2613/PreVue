@@ -40,6 +40,7 @@ PreVue aims to streamline the development process by making it easy to visualize
 - Hubert Lin
 - Franklin Pinnock
 - Annette Lin
+- Daniel Shu
 
 ## License
 MIT
