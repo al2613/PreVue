@@ -5,7 +5,10 @@ PreVue aims to streamline the development process by making it easy to visualize
 ### USING PREVUE
 * Download for MacOS: https://www.prevue.io/
 * Using PreVue locally
-* Core Features:
+1. Fork and clone
+2. `npm install`
+
+### Core Features:
   - creating components
   - draggable html elements
   - child selection
