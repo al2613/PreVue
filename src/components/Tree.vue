@@ -35,8 +35,11 @@ export default {
   },
   methods: {
     formatComponentMap(compMap) {
+      console.log('compMap', compMap);
       let result = [];
+      console.log(Object.values(compMap));
       Object.values(compMap).forEach(compData => {
+        console.log(compData);
         result.push({
           name: compData.componentName,
           children: compData.children
@@ -50,22 +53,30 @@ export default {
       const nodes = {};
       const formattedData = this.formatComponentMap(data);
       formattedData.forEach(component => {
+        console.log('component', component);
         if (!nodes[component.name]) {
           nodes[component.name] = { name: component.name, children: [] };
           result = nodes;
         }
 
         component.children.forEach(child => {
-          nodes[child] = { name: child, children: [] };
-          nodes[component.name].children.push(nodes[child]);
+          console.log('child', child);
+          nodes[child.componentName] = {
+            name: child.componentName,
+            children: []
+          };
+          console.log(nodes[child]);
+          nodes[component.name].children.push(nodes[child.componentName]);
         });
       });
+      console.log('resulobj', result);
       return result;
     },
 
     buildTree() {
       let build = this.transformToTree(this.componentMap);
-      this.tree = build['App'];
+      console.log('BUILD', build);
+      this.tree = build.HomeView;
     }
   },
   created() {
